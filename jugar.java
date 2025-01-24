@@ -114,7 +114,7 @@ public class jugar {
                     letraUsada += letra + ", ";
     
                     // Actualizar puntuación
-                    if (acierto) {
+                    if (aciertoFallo) {
                         puntuacion += 1000; // Sumar puntos por acierto
                     } else {
                         puntuacion -= 500; // Restar puntos por error
